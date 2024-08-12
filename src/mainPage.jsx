@@ -51,7 +51,7 @@ const MainPage = () => {
               Seamlessly remove edges from your images.
             </div>
           </div>
-          <div className="flex justify-around items-center text-center space-x-8 mr-4">
+          <div className="md:flex hidden  justify-around items-center text-center space-x-8 mr-4">
             <div>
               <div className="text-2xl font-semibold">1,234</div>
               <div className="opacity-65 font-medium">Images Processed</div>
@@ -69,7 +69,7 @@ const MainPage = () => {
           </div>
         </div>
         <div className="h-[78vh] flex flex-col items-center justify-center bg-slate-100">
-          <div className="bg-white h-[73vh] p-5 flex flex-col justify-between w-[60vw] border rounded-xl">
+          <div className="bg-white h-[73vh] p-5 flex flex-col justify-between w-[95vw] lg:w-[60vw] border rounded-xl">
             <div className="h-[10vh] text-xl font-medium">Upload Image</div>
             <div
               className="bg-background mb-3 h-[60vh] border-2 border-dashed border-muted rounded-lg p-8 flex flex-col items-center justify-center text-center cursor-pointer transition-colors hover:border-primary"
@@ -118,7 +118,7 @@ const MainPage = () => {
             </div>
           </div>
         </div>
-        <div className=" flex justify-between mx-4 items-center align-middle text-center">
+        <div className="flex ml-4 items-center">
           <div className="flex rounded-2xl space-x-3 mt-2 items-center">
             <a
               href="https://www.instagram.com/believer._69"
